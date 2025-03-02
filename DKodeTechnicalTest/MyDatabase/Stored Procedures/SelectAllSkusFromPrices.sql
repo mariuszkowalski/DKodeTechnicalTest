@@ -1,0 +1,7 @@
+﻿CREATE PROCEDURE [dbo].[SelectAllSkusFromPrices]
+AS
+SET NOCOUNT ON;
+BEGIN
+	SELECT SKU FROM Prices;
+	RETURN;
+END
